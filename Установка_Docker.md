@@ -1,5 +1,7 @@
 # Установка Docker и запуск простого приложения
 
+[Ссылка на скринкаст](https://disk.yandex.ru/i/i4GjQkG3FrVfhg)
+
 ## 1. Установка Docker
 
 <img width="1192" height="233" alt="image" src="https://github.com/user-attachments/assets/a3a957ae-951b-44b5-9176-48771e0651d0" />
