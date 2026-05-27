@@ -1,8 +1,11 @@
 # Docker-Compose First Look
 
+[Ссылка на скринкаст](https://disk.yandex.ru/i/FywZo1TpD_Z1xA)
+
 ## 1. Разработка веб-приложения (Python + Flask)
 
 <img width="213" height="115" alt="image" src="https://github.com/user-attachments/assets/eac37762-94c7-4540-a31b-e29e43ec1b85" />
+
 
 
 <img width="754" height="201" alt="image" src="https://github.com/user-attachments/assets/28c436ea-4c8b-436b-96e9-a21e1ebd1152" />
