@@ -32,14 +32,19 @@
 
 ## 6. Docker HUB (зарегистрироваться) + Docker PUSH
 
-Docker HUB - не работает в РФ, не дает войти -> используется GitHub Container Registry
+<img width="1272" height="437" alt="image" src="https://github.com/user-attachments/assets/39f344fe-d254-4886-adbf-fd33a1673772" />
 
+<img width="1307" height="313" alt="image" src="https://github.com/user-attachments/assets/a9912b36-3288-49fa-ac60-95e106d83d9f" />
+
+<img width="1350" height="816" alt="image" src="https://github.com/user-attachments/assets/1e23afc0-d3e1-4161-9e3b-6e0c0d1c1c56" />
+
+[Ссылка на образ](https://hub.docker.com/u/oreiro)
 
 <img width="1472" height="561" alt="image" src="https://github.com/user-attachments/assets/f38c726c-2fdc-48a8-b77a-bb6e1984b049" />
 
 <img width="835" height="857" alt="image" src="https://github.com/user-attachments/assets/34e96dda-761a-418e-85fa-eb731bdb85be" />
 
-[Ссылка](https://github.com/users/MelnikNO/packages/container/package/pitdoc-python-app)
+[Ссылка на GitHub Container Registry (была попытка сделать из-за невозможности подключиться к Docker HUB)](https://github.com/users/MelnikNO/packages/container/package/pitdoc-python-app)
 
 <img width="1797" height="995" alt="image" src="https://github.com/user-attachments/assets/98d5da24-862f-4f8d-b380-33fe77cb7907" />
 
