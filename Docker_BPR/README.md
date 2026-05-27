@@ -35,4 +35,12 @@
 Docker HUB - не работает в РФ, не дает войти -> используется GitHub Container Registry
 
 
+<img width="1472" height="561" alt="image" src="https://github.com/user-attachments/assets/f38c726c-2fdc-48a8-b77a-bb6e1984b049" />
+
+<img width="835" height="857" alt="image" src="https://github.com/user-attachments/assets/34e96dda-761a-418e-85fa-eb731bdb85be" />
+
+[Ссылка](https://github.com/users/MelnikNO/packages/container/package/pitdoc-python-app)
+
+<img width="1797" height="995" alt="image" src="https://github.com/user-attachments/assets/98d5da24-862f-4f8d-b380-33fe77cb7907" />
+
 
