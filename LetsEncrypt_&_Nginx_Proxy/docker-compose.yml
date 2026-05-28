@@ -1,0 +1,62 @@
+version: '3.8'
+
+
+networks:
+  webproxy:
+    driver: bridge
+
+services:
+  nginx-proxy:
+    image: nginxproxy/nginx-proxy:latest
+    container_name: nginx-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./nginx/conf.d:/etc/nginx/conf.d
+      - ./nginx/vhost.d:/etc/nginx/vhost.d
+      - ./nginx/html:/usr/share/nginx/html
+      - ./nginx/certs:/etc/nginx/certs:ro
+    networks:
+      - webproxy
+    labels:
+      - "com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true"
+
+
+  letsencrypt-companion:
+    image: nginxproxy/acme-companion:latest
+    container_name: nginx-letsencrypt
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./nginx/certs:/etc/nginx/certs:rw
+      - ./nginx/vhost.d:/etc/nginx/vhost.d
+      - ./nginx/html:/usr/share/nginx/html
+    environment:
+      - DEFAULT_EMAIL=melnik3570@gmail.com
+    networks:
+      - webproxy
+
+  whoami-app1:
+    image: containous/whoami:latest
+    container_name: whoami-app1
+    hostname: app1
+    environment:
+      - VIRTUAL_HOST=app1.melnikno.bizml.ru
+      - LETSENCRYPT_HOST=app1.melnikno.bizml.ru
+      - LETSENCRYPT_EMAIL=melnik3570@gmail.com
+    networks:
+      - webproxy
+
+  whoami-app2:
+    image: containous/whoami:latest
+    container_name: whoami-app2
+    hostname: app2
+    environment:
+      - VIRTUAL_HOST=app2.melnikno.bizml.ru
+      - LETSENCRYPT_HOST=app2.melnikno.bizml.ru
+      - LETSENCRYPT_EMAIL=melnik3570@gmail.com
+    networks:
+      - webproxy
