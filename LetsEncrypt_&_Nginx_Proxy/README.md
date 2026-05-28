@@ -1,5 +1,7 @@
 # LetsEncrypt & Nginx Proxy
 
+[docker-compose.yml](https://github.com/MelnikNO/applied-information-technologies3/blob/main/LetsEncrypt_%26_Nginx_Proxy/docker-compose.yml)
+
 <img width="1121" height="603" alt="image" src="https://github.com/user-attachments/assets/dce59d92-08ab-4630-bc90-78d369d12848" />
 
 <img width="1162" height="421" alt="image" src="https://github.com/user-attachments/assets/ba1ffaf5-3d9d-43e4-ae55-3b9cfdf9a757" />
