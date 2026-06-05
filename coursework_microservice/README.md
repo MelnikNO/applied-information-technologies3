@@ -1,8 +1,5 @@
 # Микросервисная архитектура Telegram-бота и веб-лендинга
 
-[Telegram Bot "Галактика"](https://t.me/galaxy_milk_bot)
-
-Бот-визитка для компании «Галактика» (производитель молочных продуктов).
 
 ## Авторы
 
@@ -36,8 +33,8 @@
 
 ```bash
 # 1. Клонируйте репозиторий
-git clone https://github.com/ваш-username/galaxy-bot.git
-cd galaxy-bot
+git clone https://github.com/MelnikNO/applied-information-technologies3/coursework_microservice.git
+cd coursework_microservice
 
 # 2. Создайте виртуальное окружение
 python -m venv venv
