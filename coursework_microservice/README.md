@@ -1,5 +1,6 @@
 # Микросервисная архитектура Telegram-бота и веб-лендинга
 
+[Скринкаст](https://drive.google.com/file/d/1p3Shljt_1sAiJRijsno95XrKDy3Al46y/view?usp=drive_link)
 
 ## Авторы
 
