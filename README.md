@@ -22,3 +22,4 @@
 [LetsEncrypt & Nginx Proxy](https://github.com/MelnikNO/applied-information-technologies3/tree/main/LetsEncrypt_%26_Nginx_Proxy#readme)
 
 
+[Курсовая работа](https://github.com/MelnikNO/applied-information-technologies3/tree/main/coursework_microservice#readme)
